@@ -1,0 +1,45 @@
+body {}
+h1 {}
+h2 {}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+}
+
+@media only screen and (min-width:768px){
+  .header, .p-one, .p-two {
+    font-size: 2em;
+    text-align: center;
+    }
+}      
+  figure {
+        float: left;
+        width: 45%;
+        margin-right: 4.5%;
+      }
+  figcaption {
+    font-size: 2em;
+  }
+@media only screen and (max-width: 768px){
+  .header, .p-one, .p-two{
+    font-size: 1em;
+  }
+    }
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: orange;
+        font-size: 3em;
+        margin: 5px;
+        max-width: 1000px;
+    }
+    figure {
+        float: left;
+        width: 30%;
+        margin-right: 3%;
+    }
+}
